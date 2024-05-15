@@ -58,7 +58,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
             <path id="searchSVG" fill-rule="evenodd"></path>
         </svg>
     </div>
-    <a href="https://Misaka-blog.github.io/misaka-blog.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+    <a href="https://misaka-blog.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
         </svg>
@@ -75,7 +75,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <nav class="SideNav"></nav>
 <div class="notFind" style="display:none;font-size:24px;margin:8px;">Not Find</div>
 </div>
-    <div id="footer">Copyright © <span id="year"></span><a href="https://Misaka-blog.github.io/misaka-blog.github.io"> Blog Title </a>
+    <div id="footer">Copyright © <span id="year"></span><a href="https://misaka-blog.github.io"> Blog Title </a>
 <p>
 <span id="runday"></span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a>
 </p>
@@ -191,7 +191,7 @@ function showList(labelsCount){
             path=document.createElementNS("http://www.w3.org/2000/svg","path"); 
             span=document.createElement("span");
             svg.setAttributeNS(null,"class","SideNav-icon octicon");
-            svg.setAttributeNS(null,"style","witdh:16px;height:16px");
+            svg.setAttributeNS(null,"style","width:16px;height:16px");
             path.setAttributeNS(null, "d", IconList["post"]);
             svg.appendChild(path);
 
